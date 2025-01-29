@@ -1,12 +1,13 @@
 import './App.css'
-import { WavyBackground } from "@/components/ui/wavy-background";
-
-function App() {
-    return (
-        <div>
-            <WavyBackground/>
-        </div>
-    )
+import { AppleStyleDock } from './dock'
+import { GlareCardDemo } from './cards'
+import { GooeyTextDemo } from './blobtext'
+export default function App() {
+  return (
+    <>
+        <GooeyTextDemo/>
+        <AppleStyleDock/>
+        <GlareCardDemo/>
+    </>
+  );
 }
-
-export default App

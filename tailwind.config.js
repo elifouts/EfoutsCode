@@ -51,10 +51,6 @@ module.exports = {
   				'5': 'hsl(var(--chart-5))'
   			}
   		},
-  		backgroundImage: {
-  			'grid-pattern': ',
-  			'grid-pattern-light': '
-  		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
