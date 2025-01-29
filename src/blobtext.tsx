@@ -1,6 +1,6 @@
 import { GooeyText } from "@/components/ui/gooey-text-morphing";
 
-function GooeyTextDemo() {
+function SkillsText() {
   return (
     <div className="h-[100px] flex items-center justify-center">
       <GooeyText
@@ -13,4 +13,4 @@ function GooeyTextDemo() {
   );
 }
 
-export { GooeyTextDemo };
+export { SkillsText };
