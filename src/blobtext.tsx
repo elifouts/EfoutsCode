@@ -1,4 +1,3 @@
-import * as React from "react";
 import { GooeyText } from "@/components/ui/gooey-text-morphing";
 
 function GooeyTextDemo() {
